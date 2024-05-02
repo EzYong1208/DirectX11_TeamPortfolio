@@ -1,0 +1,1219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01.Levels">
+      <UniqueIdentifier>{3570d713-72ce-4859-a7a1-4c6baa9b6f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects">
+      <UniqueIdentifier>{add1c3f6-093b-431b-bc04-ed456aa97110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Terrain">
+      <UniqueIdentifier>{054c1553-b217-4cb9-957c-6d44b622bc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Levels\95.Level_PJE">
+      <UniqueIdentifier>{18f25b55-cbfc-4ce2-86f8-44d495cf13a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect">
+      <UniqueIdentifier>{a124494d-5311-4b54-b650-fe399b9061d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect">
+      <UniqueIdentifier>{43fb80d7-210b-48c9-beaa-ed8aa1f679c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY">
+      <UniqueIdentifier>{9f53e589-8956-4a14-ba3d-9162fdb218fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN">
+      <UniqueIdentifier>{0cd0becf-c157-4f41-968f-d566d80e7b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\99.Super">
+      <UniqueIdentifier>{838827c2-7197-42c9-867c-df744b4ae151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Deco">
+      <UniqueIdentifier>{53fb321a-fc5a-44f8-9ee1-34ce3eb3e205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Deco\Bird">
+      <UniqueIdentifier>{0170da0e-0150-4e7a-8b15-3b4abd078cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Deco\Glow">
+      <UniqueIdentifier>{513b444a-25d9-448e-8958-1a65a8980fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Deco\Snow">
+      <UniqueIdentifier>{7da07727-0668-4775-a21b-871294761962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin">
+      <UniqueIdentifier>{52c0b5e0-4d7c-4f3a-ab3c-19e6103297d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack">
+      <UniqueIdentifier>{1bc3bde6-1650-46e7-b4ba-3544f8caafac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special">
+      <UniqueIdentifier>{4999d90d-5135-4b94-ba36-f3451de11478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\3.Overdrive">
+      <UniqueIdentifier>{6a78b71f-a4ad-45f7-8618-3987060d121b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop">
+      <UniqueIdentifier>{a68082e7-e8a5-49d5-9364-a67f3e17aa98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara">
+      <UniqueIdentifier>{35c73d94-d331-4b9c-82ac-d5c8f806dbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Manatee">
+      <UniqueIdentifier>{c7fd531c-ae70-4d94-bba9-13fad30c194d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit">
+      <UniqueIdentifier>{6363cf0c-fd13-4673-9000-6953be046a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark">
+      <UniqueIdentifier>{050aa85f-ca60-4ed3-9609-3d755ce2c0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash">
+      <UniqueIdentifier>{337b3c01-d4b6-4fa4-8070-06ef51a3de4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash">
+      <UniqueIdentifier>{80d12fa9-95f8-4031-9c4f-0c70f26dfff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju">
+      <UniqueIdentifier>{c9214f37-70be-491c-bb0b-42d13a49411e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Slash">
+      <UniqueIdentifier>{2b7b6099-39b1-4016-a8e7-5b7c354f552e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Kidou">
+      <UniqueIdentifier>{b09e4725-7dfa-465b-a974-c5e0044fb382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background">
+      <UniqueIdentifier>{e81f8290-be1b-4cde-a0b6-8c7fc00a3cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background\Tenchijin">
+      <UniqueIdentifier>{20aa7c68-5cb2-413f-a421-d8cbf5e8a47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami">
+      <UniqueIdentifier>{364c898d-0ea0-48b5-947d-0aeffb645fb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Youzansen">
+      <UniqueIdentifier>{ef634cdf-cfa7-444e-97c1-3831ae611611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO">
+      <UniqueIdentifier>{2c1c0ad8-9bc7-4ce4-a040-d809a8cbceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack">
+      <UniqueIdentifier>{e1db4fd4-e1b1-478f-9a0c-c61ecfdecd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal">
+      <UniqueIdentifier>{3ce91150-13a4-44fb-a8af-419141c475d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special">
+      <UniqueIdentifier>{5b85bc0b-2772-411b-acc2-2ed8d7195aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant">
+      <UniqueIdentifier>{1f2e7a11-d5a6-4982-a3b1-1d3f20084360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Throw">
+      <UniqueIdentifier>{495d8521-70e8-4450-b756-43f87866d8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim">
+      <UniqueIdentifier>{a1a24f4c-50b9-4aa4-adad-811edf22df43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT">
+      <UniqueIdentifier>{91c9f5f4-a318-43a2-a46c-851628b5b7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack">
+      <UniqueIdentifier>{b1c33d18-5825-4991-9f29-999ef27968ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special">
+      <UniqueIdentifier>{19345a4e-7b9f-4db3-a0ad-aac951df86ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop">
+      <UniqueIdentifier>{05a6bfb0-fbe2-4ef7-8d6e-503be1f554b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship">
+      <UniqueIdentifier>{aa098d94-7056-4851-821b-0837180485bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart">
+      <UniqueIdentifier>{2c22b4e7-48e5-4f02-8122-cb0e31abc618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine">
+      <UniqueIdentifier>{ce7b6054-c6c5-47d6-b70e-870df9ce7189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Particle">
+      <UniqueIdentifier>{2a81f272-e91b-4903-8a6a-837278b70829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\ForeverElysionDriver">
+      <UniqueIdentifier>{3870e792-12c2-447c-be50-e694cd96ec2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\TrapAttack">
+      <UniqueIdentifier>{c6062085-59d6-4f8a-980d-69e4f8f21658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObjects\Static">
+      <UniqueIdentifier>{5d9081b5-6f23-414b-82c4-9470e16046e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Terrain_For_Gameplay.h">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_PJE.h">
+      <Filter>01.Levels\95.Level_PJE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Terrain_For_Editer.h">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StaticObject.h">
+      <Filter>02.GameObjects\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Deco_Bird.h">
+      <Filter>02.GameObjects\Deco\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Merged_Bird.h">
+      <Filter>02.GameObjects\Deco\Bird</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Deco_Glow.h">
+      <Filter>02.GameObjects\Deco\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Deco_Snow.h">
+      <Filter>02.GameObjects\Deco\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Merged_Glow.h">
+      <Filter>02.GameObjects\Deco\Glow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_None_Anim_Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Test_Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\03.RAM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack_Line1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack_Line2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Charging.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Horizontal1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Horizontal2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Near1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Near2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Upper.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Anchor_Upward1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Anchor_Upward2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Down_Anchor1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Down_Anchor2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\UI_Announce_Counter.h">
+      <Filter>02.GameObjects\UI\UI_Dynamic\UI_Announce\Announce_CounterBig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_None_Anim_Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IRukaSan_Anim.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IRukaSan_Ride.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IRukaSan_Return.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Anim_Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IRukaSan_Hit.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IRukaSan_Roll.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_2D.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_6K.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Drop01_05.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Twinkle03_04.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Twinkle01_03.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Twinkle02_06.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Glow_09.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_MayDynamic.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Arisugawa.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Manatee</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit0.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark01.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark05.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark02.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Splashcylinder1.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Splashcylinder2.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_Splashcylinder3.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_WaterRing.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_GOS_Splash01.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BillboardValueFix_Effect.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_GOS_Splash02.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark03.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_GOS_WaterRing.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_FS.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_5H01.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_5H02.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_6H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_2H01.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_2H02.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Slash.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Slash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Kidou.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Kidou</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Moon.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Cloud.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Smoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_SmokeCloud.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Tenchijin.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background\Tenchijin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_TenchijinAnim.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background\Tenchijin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Smoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Blast01.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Blast02.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Windring.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Dustsmoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Youzansen_Slash.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Youzansen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Bake.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BKN_26H_H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_FS.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_5D_Soul.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_JKO_SUV_Floating.h">
+      <Filter>04.State\Actor\Jack_O\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_5D_Wind.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_5D_Windring.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_5K.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_2S.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_2H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_5H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_Command.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Attack.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Defend.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Hit.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Countdown.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Throw_Ring.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Throw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Throw_Burst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Throw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_2D.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_Servant_Shoot.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_IronMaidon.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_Flag.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_Whistle.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_CheerKira.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_CheerKira.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_JS_Strike.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_JS_Bake.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Chp_2D.h">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Chp_2H.h">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Chp_2K.h">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Chp_2P.h">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Chp_2S.h">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_5H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_5H_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_2H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_2H_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_2D.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_2D_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_JD.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_S.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_JH.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_JH_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_S_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_H.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_H_Sub.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_H_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_5P.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_FS.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_CS.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_5D.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_6P.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_2S.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_JS.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_RogerPuch.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_R_Start.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_R_Loop.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_L_Start.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_L_Loop.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_LTL_RogerBurst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_Start.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_Loop.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_End.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_Start.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_Loop.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_End.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RTR_Burst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RogerSmoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RD_AirBurst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RD_Burst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RogerSpeedline.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AttackMask_Baiken_SW.h">
+      <Filter>04.State\Actor\Baiken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\AttackMask_Baiken_SW.h" />
+    <ClInclude Include="..\Public\AttackMask_Baiken_SW.h">
+      <Filter>04.State\Actor\Baiken</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Yoyobake.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoSpark.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoLine.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoString.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Spark.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Sparkline.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Smoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Bubble.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RKM_FireRing.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RKM_FloorFire.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Ember.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Explosion.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_SUV_SmallExplosion.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_FED_Smoke.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\ForeverElysionDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_JKO_FED_Burst.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\ForeverElysionDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_TAS_Line.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\TrapAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Effect_BGT_TAS_Fire.h">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\TrapAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Seria_Room.h">
+      <Filter>01.Levels\70.Level_Seria_Room</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_DNF_SnowMountain.h">
+      <Filter>01.Levels\72.Level_DNF_SnowMountain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_Ram_Calvados_CS.h">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_RamW_Calvados_CS.h">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\State_Actor_RamW_Calvados.h">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\StaticObject.h">
+      <Filter>02.GameObjects\Static</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Terrain_For_Gameplay.cpp">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_PJE.cpp">
+      <Filter>01.Levels\95.Level_PJE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Terrain_For_Editer.cpp">
+      <Filter>02.GameObjects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StaticObject.cpp">
+      <Filter>02.GameObjects\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Ram_Weapon_Sword_Bust_L.cpp">
+      <Filter>04.State\Actor\Ram\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Ram_Weapon_Sword_Bust_R.cpp">
+      <Filter>04.State\Actor\Ram\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_None_Anim_Effect.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Deco_Bird.cpp">
+      <Filter>02.GameObjects\Deco\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Merged_Bird.cpp">
+      <Filter>02.GameObjects\Deco\Bird</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Deco_Glow.cpp">
+      <Filter>02.GameObjects\Deco\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Deco_Snow.cpp">
+      <Filter>02.GameObjects\Deco\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Merged_Glow.cpp">
+      <Filter>02.GameObjects\Deco\Glow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack_Line1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack_Line2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Charging.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Horizontal1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Horizontal2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Near1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Near2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Upper.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Anchor_Upward1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Anchor_Upward2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Down_Anchor1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Down_Anchor2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\UI_Announce_Counter.cpp">
+      <Filter>02.GameObjects\UI\UI_Dynamic\UI_Announce\Announce_CounterBig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IRukaSan_Anim.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IRukaSan_Ride.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IRukaSan_Return.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Anim_Effect.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IRukaSan_Hit.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IRukaSan_Roll.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_2D.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_6K.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Drop01_05.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Twinkle03_04.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Twinkle01_03.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Twinkle02_06.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Glow_09.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Drop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Com_Kyk_Eclat.cpp">
+      <Filter>04.State\Actor\KY Kiske</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Com_Kyk_Far.cpp">
+      <Filter>04.State\Actor\KY Kiske</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Com_Kyk_Near_Basic.cpp">
+      <Filter>04.State\Actor\KY Kiske</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_MayDynamic.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Arisugawa.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Manatee</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit0.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark01.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark05.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark02.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder3.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_WaterRing.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_GOS_Splash01.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BillboardValueFix_Effect.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\99.Super</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_GOS_Splash02.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark03.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\BurstHit\SlashSpark</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_GOS_WaterRing.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Goshogawara\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_FS.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_5H01.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_5H02.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_6H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_2H01.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_2H02.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Slash.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Slash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Kidou.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Kidou</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Moon.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Cloud.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Smoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_SmokeCloud.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Tenchijin.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background\Tenchijin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_TenchijinAnim.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Sanju\Background\Tenchijin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Smoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Blast01.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Blast02.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Windring.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Dustsmoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Youzansen_Slash.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Youzansen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Bake.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\2.Special\Tatami</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BKN_26H_H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\04.BKN\1.Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_FS.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_5D_Soul.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_JKO_SUV_Floating.cpp">
+      <Filter>04.State\Actor\Jack_O\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_5D_Wind.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_5D_Windring.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_5K.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_2S.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_2H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_5H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_Command.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Attack.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Defend.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Hit.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Countdown.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Throw_Ring.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Throw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Throw_Burst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Throw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_2D.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_Servant_Shoot.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_IronMaidon.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_Flag.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_Whistle.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\Anim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_CheerKira.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_CheerKira.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_JS_Strike.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_JS_Bake.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Chp_2D.cpp">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Chp_2H.cpp">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Chp_2K.cpp">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Chp_2P.cpp">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Chp_2S.cpp">
+      <Filter>04.State\Actor\Chipp\Att_Sit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_5H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_5H_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_2H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_2H_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_2D.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_2D_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_JD.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_S.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_JH.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_JH_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_S_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_H.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_H_Sub.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_H_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_5P.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_FS.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_CS.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_5D.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_6P.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_2S.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_JS.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_RogerPuch.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_R_Start.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_R_Loop.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_L_Start.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_L_Loop.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_LTL_RogerBurst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\LoopTheLoop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_Start.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_Loop.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_End.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_Start.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_Loop.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_End.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\Starship</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RTR_Burst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RogerSmoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RD_AirBurst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RD_Burst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RogerSpeedline.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Yoyobake.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoSpark.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoLine.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoString.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Spark.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Sparkline.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\KickStartMyHeart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Smoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Bubble.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RKM_FireRing.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RKM_FloorFire.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Ember.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\ReturnoftheKillingMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Explosion.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_SUV_SmallExplosion.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Servant\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_FED_Smoke.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\ForeverElysionDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_JKO_FED_Burst.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\06.JKO\Special\ForeverElysionDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_TAS_Line.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\TrapAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_BGT_TAS_Fire.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\07.BGT\Special\TrapAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Seria_Room.cpp">
+      <Filter>01.Levels\70.Level_Seria_Room</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_DNF_SnowMountain.cpp">
+      <Filter>01.Levels\72.Level_DNF_SnowMountain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_Ram_Calvados_CS.cpp">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_RamW_Calvados_CS.cpp">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\State_Actor_RamW_Calvados.cpp">
+      <Filter>04.State\Actor\Ram\CS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder2.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Effect_Splashcylinder1.cpp">
+      <Filter>02.GameObjects\Shader &amp; Effect\1_Effect\01.MAY\Dolphin\Splash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\StaticObject.cpp">
+      <Filter>02.GameObjects\Static</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

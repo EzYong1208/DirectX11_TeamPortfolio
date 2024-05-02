@@ -1,0 +1,62 @@
+# Prerequisites
+*.d
+*.db
+*.opendb
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Etc
+*.user
+
+#Ignore Folder
+AutoPCH/
+.vs/
+Client/Default/x64/
+Client/Default/imgui.ini
+Client/Bin/*
+!Client/Bin/ShaderFiles/
+!Client/Bin/data/
+!Client/Bin/Save/
+!Client/Bin/assimp-vc140-mtd.dll
+!Client/Bin/assimp-vc140-mt.dll
+!Client/Bin/fmod.dll
+!Client/Bin/fmodL.dll
+
+
+Engine/Default/x64/
+Engine/Bin/*
+!Engine/Bin/ShaderFiles/
+Reference/Inc/*
+!Reference/Inc/DirectXTK/
+!Reference/Inc/assimp/
+Reference/bin/Engine.lib
+ipch/
+
+Loader/x64/*
+x64/*

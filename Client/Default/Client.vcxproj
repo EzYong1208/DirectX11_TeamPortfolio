@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C0334D28-CF63-4C80-B9B5-B3396C011D31}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <MultiProcFXC>true</MultiProcFXC>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\</OutDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <MultiProcFXC>true</MultiProcFXC>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;../public/;../../Reference/Inc/;../Imgui/</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/bin/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;dxguid.lib;DirectXTKd.lib;fmodL_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>.\;../public/;../../Reference/Inc/;</AdditionalIncludeDirectories>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions2</EnableEnhancedInstructionSet>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/bin/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;dxguid.lib;DirectXTK.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Effect_BGT_2D.h" />
+    <ClInclude Include="..\Public\Effect_BGT_2D_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_2H.h" />
+    <ClInclude Include="..\Public\Effect_BGT_2H_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_2S.h" />
+    <ClInclude Include="..\Public\Effect_BGT_5D.h" />
+    <ClInclude Include="..\Public\Effect_BGT_5H.h" />
+    <ClInclude Include="..\Public\Effect_BGT_5H_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_5P.h" />
+    <ClInclude Include="..\Public\Effect_BGT_6P.h" />
+    <ClInclude Include="..\Public\Effect_BGT_CS.h" />
+    <ClInclude Include="..\Public\Effect_BGT_FS.h" />
+    <ClInclude Include="..\Public\Effect_BGT_H.h" />
+    <ClInclude Include="..\Public\Effect_BGT_H_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_H_Sub.h" />
+    <ClInclude Include="..\Public\Effect_BGT_JD.h" />
+    <ClInclude Include="..\Public\Effect_BGT_JH.h" />
+    <ClInclude Include="..\Public\Effect_BGT_JH_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_JS.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Spark.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Sparkline.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_Yoyobake.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoLine.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoSpark.h" />
+    <ClInclude Include="..\Public\Effect_BGT_KSMH_YoyoString.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_L_Loop.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_L_Start.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_RogerBurst.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_RogerPuch.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RD_AirBurst.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RD_Burst.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Bubble.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Ember.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RKM_FireRing.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RKM_FloorFire.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RKM_Smoke.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RogerSmoke.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RogerSpeedline.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_R_Loop.h" />
+    <ClInclude Include="..\Public\Effect_BGT_LTL_R_Start.h" />
+    <ClInclude Include="..\Public\Effect_BGT_RTR_Burst.h" />
+    <ClInclude Include="..\Public\Effect_BGT_S.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_End.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_Loop.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_L_Start.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_End.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_Loop.h" />
+    <ClInclude Include="..\Public\Effect_BGT_SS_R_Start.h" />
+    <ClInclude Include="..\Public\Effect_BGT_S_Line.h" />
+    <ClInclude Include="..\Public\Effect_BGT_TAS_Fire.h" />
+    <ClInclude Include="..\Public\Effect_BGT_TAS_Line.h" />
+    <ClInclude Include="..\Public\Effect_IronMaidon.h" />
+    <ClInclude Include="..\Public\Effect_JKO_2D.h" />
+    <ClInclude Include="..\Public\Effect_JKO_CheerKira.h" />
+    <ClInclude Include="..\Public\Effect_JKO_Command.h" />
+    <ClInclude Include="..\Public\Effect_JKO_FED_Burst.h" />
+    <ClInclude Include="..\Public\Effect_JKO_FED_Smoke.h" />
+    <ClInclude Include="..\Public\Effect_JKO_Flag.h" />
+    <ClInclude Include="..\Public\Effect_JKO_JS_Bake.h" />
+    <ClInclude Include="..\Public\Effect_JKO_JS_Strike.h" />
+    <ClInclude Include="..\Public\Effect_JKO_Servant_Shoot.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Attack.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_CheerKira.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Countdown.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Defend.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Explosion.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Hit.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_SmallExplosion.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Throw_Burst.h" />
+    <ClInclude Include="..\Public\Effect_JKO_SUV_Throw_Ring.h" />
+    <ClInclude Include="..\Public\Effect_JKO_Whistle.h" />
+    <ClInclude Include="..\Public\Effect_BKN_26H_H.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Bake.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Blast02.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Dustsmoke.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Line.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Windring.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Youzansen_Slash.h" />
+    <ClInclude Include="..\Public\Effect_JKO_2H.h" />
+    <ClInclude Include="..\Public\Effect_JKO_2S.h" />
+    <ClInclude Include="..\Public\Effect_JKO_5D_Soul.h" />
+    <ClInclude Include="..\Public\Effect_JKO_5D_Wind.h" />
+    <ClInclude Include="..\Public\Effect_JKO_5D_Windring.h" />
+    <ClInclude Include="..\Public\Effect_JKO_5H.h" />
+    <ClInclude Include="..\Public\Effect_JKO_5K.h" />
+    <ClInclude Include="..\Public\Effect_JKO_FS.h" />
+    <ClInclude Include="..\Public\Effect_BKN_2H01.h" />
+    <ClInclude Include="..\Public\Effect_BKN_2H02.h" />
+    <ClInclude Include="..\Public\Effect_BKN_5H01.h" />
+    <ClInclude Include="..\Public\Effect_BKN_5H02.h" />
+    <ClInclude Include="..\Public\Effect_BKN_6H.h" />
+    <ClInclude Include="..\Public\Effect_BKN_FS.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Cloud.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Kidou.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Moon.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Slash.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Smoke.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_SmokeCloud.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_Tenchijin.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Sanju_TenchijinAnim.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Blast01.h" />
+    <ClInclude Include="..\Public\Effect_BKN_Tatami_Smoke.h" />
+    <ClInclude Include="..\Public\Effect_Arisugawa.h" />
+    <ClInclude Include="..\Public\Effect_BillboardValueFix_Effect.h" />
+    <ClInclude Include="..\Public\Effect_GOS_Splash01.h" />
+    <ClInclude Include="..\Public\Effect_GOS_Splash02.h" />
+    <ClInclude Include="..\Public\Effect_GOS_WaterRing.h" />
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit0.h" />
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_BurstHit2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_MayDynamic.h" />
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark01.h" />
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark02.h" />
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark03.h" />
+    <ClInclude Include="..\Public\Effect_MAY_SlashSpark05.h" />
+    <ClInclude Include="..\Public\Effect_Drop01_05.h" />
+    <ClInclude Include="..\Public\Effect_Glow_09.h" />
+    <ClInclude Include="..\Public\Effect_Twinkle01_03.h" />
+    <ClInclude Include="..\Public\Effect_Twinkle02_06.h" />
+    <ClInclude Include="..\Public\Effect_Twinkle03_04.h" />
+    <ClInclude Include="..\Public\Effect_MAY_2D.h" />
+    <ClInclude Include="..\Public\Effect_MAY_6K.h" />
+    <ClInclude Include="..\Public\Effect_Splashcylinder3.h" />
+    <ClInclude Include="..\Public\Effect_Anim_Effect.h" />
+    <ClInclude Include="..\Public\Effect_IRukaSan_Anim.h" />
+    <ClInclude Include="..\Public\Effect_IRukaSan_Hit.h" />
+    <ClInclude Include="..\Public\Effect_IRukaSan_Return.h" />
+    <ClInclude Include="..\Public\Effect_IRukaSan_Ride.h" />
+    <ClInclude Include="..\Public\Effect_IRukaSan_Roll.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack_Line1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Sit_Attack_Line2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Charging.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Horizontal1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Horizontal2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Near1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Smash_Near2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Anchor_Upper.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Anchor_Upward1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Anchor_Upward2.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Down_Anchor1.h" />
+    <ClInclude Include="..\Public\Effect_MAY_Jump_Down_Anchor2.h" />
+    <ClInclude Include="..\Public\Effect_Splashcylinder1.h" />
+    <ClInclude Include="..\Public\Effect_Splashcylinder2.h" />
+    <ClInclude Include="..\Public\Effect_WaterRing.h" />
+    <ClInclude Include="..\Public\Deco_Bird.h" />
+    <ClInclude Include="..\Public\Deco_Glow.h" />
+    <ClInclude Include="..\Public\Deco_Snow.h" />
+    <ClInclude Include="..\Public\Effect.h" />
+    <ClInclude Include="..\Public\Effect_None_Anim_Effect.h" />
+    <ClInclude Include="..\Public\Level_PJE.h" />
+    <ClInclude Include="..\Public\Merged_Bird.h" />
+    <ClInclude Include="..\Public\Merged_Glow.h" />
+    <ClInclude Include="..\Public\StaticObject.h" />
+    <ClInclude Include="..\Public\Terrain_For_Editer.h" />
+    <ClInclude Include="..\Public\Terrain_For_Gameplay.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Private\Effect_BGT_2D.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_2D_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_2H.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_2H_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_2S.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_5D.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_5H.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_5H_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_5P.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_6P.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_CS.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_FS.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_H.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_H_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_H_Sub.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_JD.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_JH.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_JH_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_JS.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Spark.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Sparkline.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_Yoyobake.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoLine.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoSpark.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_KSMH_YoyoString.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_L_Loop.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_L_Start.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_RogerBurst.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_RogerPuch.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RD_AirBurst.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RD_Burst.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Bubble.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Ember.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RKM_FireRing.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RKM_FloorFire.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RKM_Smoke.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RogerSmoke.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RogerSpeedline.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_R_Loop.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_LTL_R_Start.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_RTR_Burst.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_S.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_End.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_Loop.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_L_Start.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_End.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_Loop.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_SS_R_Start.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_S_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_TAS_Fire.cpp" />
+    <ClCompile Include="..\Private\Effect_BGT_TAS_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_IronMaidon.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_2D.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_CheerKira.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_Command.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_FED_Burst.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_FED_Smoke.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_Flag.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_JS_Bake.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_JS_Strike.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_Servant_Shoot.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Attack.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_CheerKira.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Countdown.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Defend.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Explosion.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Hit.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_SmallExplosion.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Throw_Burst.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_SUV_Throw_Ring.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_Whistle.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_26H_H.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Bake.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Blast02.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Dustsmoke.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Line.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Windring.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Youzansen_Slash.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_2H.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_2S.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_5D_Soul.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_5D_Wind.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_5D_Windring.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_5H.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_5K.cpp" />
+    <ClCompile Include="..\Private\Effect_JKO_FS.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_2H01.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_2H02.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_5H01.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_5H02.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_6H.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_FS.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Cloud.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Kidou.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Moon.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Slash.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Smoke.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_SmokeCloud.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_Tenchijin.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Sanju_TenchijinAnim.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Blast01.cpp" />
+    <ClCompile Include="..\Private\Effect_BKN_Tatami_Smoke.cpp" />
+    <ClCompile Include="..\Private\Effect_Arisugawa.cpp" />
+    <ClCompile Include="..\Private\Effect_BillboardValueFix_Effect.cpp" />
+    <ClCompile Include="..\Private\Effect_GOS_Splash01.cpp" />
+    <ClCompile Include="..\Private\Effect_GOS_Splash02.cpp" />
+    <ClCompile Include="..\Private\Effect_GOS_WaterRing.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit0.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_BurstHit2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_MayDynamic.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark01.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark02.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark03.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_SlashSpark05.cpp" />
+    <ClCompile Include="..\Private\Effect_Drop01_05.cpp" />
+    <ClCompile Include="..\Private\Effect_Glow_09.cpp" />
+    <ClCompile Include="..\Private\Effect_Twinkle01_03.cpp" />
+    <ClCompile Include="..\Private\Effect_Twinkle02_06.cpp" />
+    <ClCompile Include="..\Private\Effect_Twinkle03_04.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_2D.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_6K.cpp" />
+    <ClCompile Include="..\Private\Effect_Splashcylinder3.cpp" />
+    <ClCompile Include="..\Private\Effect_Anim_Effect.cpp" />
+    <ClCompile Include="..\Private\Effect_IRukaSan_Anim.cpp" />
+    <ClCompile Include="..\Private\Effect_IRukaSan_Hit.cpp" />
+    <ClCompile Include="..\Private\Effect_IRukaSan_Return.cpp" />
+    <ClCompile Include="..\Private\Effect_IRukaSan_Ride.cpp" />
+    <ClCompile Include="..\Private\Effect_IRukaSan_Roll.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack_Line1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Sit_Attack_Line2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Charging.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Horizontal1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Horizontal2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Near1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Smash_Near2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Anchor_Upper.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Anchor_Upward1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Anchor_Upward2.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Down_Anchor1.cpp" />
+    <ClCompile Include="..\Private\Effect_MAY_Jump_Down_Anchor2.cpp" />
+    <ClCompile Include="..\Private\Effect_Splashcylinder1.cpp" />
+    <ClCompile Include="..\Private\Effect_Splashcylinder2.cpp" />
+    <ClCompile Include="..\Private\Effect_WaterRing.cpp" />
+    <ClCompile Include="..\Private\Deco_Bird.cpp" />
+    <ClCompile Include="..\Private\Deco_Glow.cpp" />
+    <ClCompile Include="..\Private\Deco_Snow.cpp" />
+    <ClCompile Include="..\Private\Effect.cpp" />
+    <ClCompile Include="..\Private\Effect_None_Anim_Effect.cpp" />
+    <ClCompile Include="..\Private\Merged_Bird.cpp" />
+    <ClCompile Include="..\Private\Merged_Glow.cpp" />
+    <ClCompile Include="..\Private\Level_PJE.cpp" />
+    <ClCompile Include="..\Private\StaticObject.cpp" />
+    <ClCompile Include="..\Private\Terrain_For_Editer.cpp" />
+    <ClCompile Include="..\Private\Terrain_For_Gameplay.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
